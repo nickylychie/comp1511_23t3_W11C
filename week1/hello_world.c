@@ -5,8 +5,10 @@
 #include <stdio.h>
 
 int main(void) {
-    // printing a cat
-    printf("Hello World\n");
+    
+    printf(" /\\___/\\\n"
+            "(=' w '=)\n");
+    
     return 0;
 }
 
