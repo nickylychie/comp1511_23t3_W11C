@@ -50,4 +50,5 @@ int is_vowel(char c) {
         || lower_c == 'e'
         || lower_c == 'i' 
         || lower_c == 'o' 
-        || 
+        || lower_c == 'u'
+}
