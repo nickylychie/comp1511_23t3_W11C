@@ -2,6 +2,7 @@
 // Tutorial demo code for creating a linked list node
 
 #include <stdio.h>
+#include <stdlib.h>
 
 #define SIZE 6
 
@@ -25,5 +26,13 @@ int main(void) {
     return 0;
 }
 
-// Write a funtion that takes in an int value,
-// and returns a pointer to a node containing that value
+// Write a funtion that takes in an int value, and 
+// create a linked list node containing that value,
+// then returns a pointer to that node 
+struct node *create_new_node(int value) {
+    struct node *new_node = malloc(sizeof(struct node));
+    new_node->data = value;
+    new_node->next = NULL;
+
+    return new_node;
+}

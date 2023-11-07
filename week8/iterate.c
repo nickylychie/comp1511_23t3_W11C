@@ -31,7 +31,7 @@ int main(void) {
 
 // ======================== tut exercise here! =========================
 
-// iterate through the given list
+/ iterate through the given list and print the values
 void iterate_list(struct node *head) {
    
 }
